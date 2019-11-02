@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "ARMGCC",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/FYP_nRF52840_SDK/nRF5_SDK_15.3.0_59ac345/components/**",
+                "C:/FYP_nRF52840_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/util/**",
+                "C:/FYP_nRF52840_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/bsp/**",
+                "C:/FYP_nRF52840_SDK/nRF5_SDK_15.3.0_59ac345/modules/nrfx/hal/**",
+                "C:/FYP_nRF52840_SDK/nRF5_SDK_15.3.0_59ac345/modules/nrfx/**"
+
+
+
+
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "BOARD_SPARKFUN_NRF52840_MINI",
+                "BSP_DEFINES_ONLY",
+                "CONFIG_GPIO_AS_PINRESET",
+                "FLOAT_ABI_HARD",
+                "NRF52840_XXAA",
+                "DCONFIG_NFCT_PINS_AS_GPIOS"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:\\Program Files (x86)\\GNU Tools ARM Embedded\\8 2019-q3-update\\bin\\arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
